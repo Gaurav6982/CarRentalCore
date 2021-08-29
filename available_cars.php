@@ -34,7 +34,6 @@
                     }
                 }
 
-                print_r($_SESSION['cars']);
                 ?>
                 <div class="row">
                 <?php foreach ($_SESSION['cars']??[] as $i => $car) {?>
