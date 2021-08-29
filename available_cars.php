@@ -33,13 +33,14 @@
 
                     }
                 }
+
+                print_r($_SESSION['cars']);
                 ?>
                 <div class="row">
                 <?php foreach ($_SESSION['cars']??[] as $i => $car) {?>
                     <div class="col-md-3 my-2">
                         <div class="card">
                             <div class="card">
-                            <!-- <img src="<?php// echo $car->image??"./assets/back.jpg"?>" class="card-img-top" alt="Car Image"> -->
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $car['vehicle_model']??"Bmw b6"?></h5>
                                 <h5 class="card-title"><?php echo $car['vehicle_number']??"123456"?></h5>
