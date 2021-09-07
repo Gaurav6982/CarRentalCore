@@ -86,6 +86,9 @@
                         </div>
                     </div>
                 <?php } ?>
+                <?php if(count($_SESSION['cars']??[])==0){ ?>
+                    <p class="text-center">No Cars Added</p>
+                <?php }?>
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@
     <div class="cont">
     <div class="login-panel">
         <h3 class="text-center text-white bg-danger">Agency Login</h3>
-        <form action="/backend/auth/login_agency.php" method="POST">
+        <form action="backend/auth/login_agency.php" method="POST">
         <?php if(isset($_GET['signup'])){
                     if($_GET['signup']=="success"){
                         echo '<p class="text-center text-success">Registeration Successful! Please Login.</p>';
